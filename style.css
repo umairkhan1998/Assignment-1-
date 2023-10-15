@@ -1,0 +1,92 @@
+*{
+    color: aliceblue;
+}
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #1a151a;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #242323;
+    color: #fff;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.featured-story {
+    text-align: left;
+    padding: 20px;
+}
+
+.featured-story h2 {
+    color: #fefcfc;
+}
+
+.featured-story h3 {
+    color: #f8f6f6;
+}
+
+.featured-story img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.featured-story h4 {
+    color: #f3f2f2;
+}
+
+.featured-story ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.featured-story p {
+    color: #fcfbfb;
+    line-height: 1.5;
+}
+
+footer {
+    background-color: #b61818;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+body {
+    background-image: url('ty.jpg');
+    background-size: cover; /* Adjust this to control how the image is scaled */
+    background-repeat: no-repeat; /* Prevent image repetition */
+}
